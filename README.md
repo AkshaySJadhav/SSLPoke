@@ -17,7 +17,7 @@ Successfully connected
 - This is how java command can be exexuted:
 
 ```
-% java -Djavax.net.ssl.trustStore=/Users/apple/Desktop/streamsets-datacollector-5.6.2/etc/keystore.jks -Djavax.net.ssl.trustStorePassword=password SSLPoke localhost 18631
+% java -Djavax.net.ssl.trustStore=/Users/apple/Desktop/keystore.jks -Djavax.net.ssl.trustStorePassword=password SSLPoke localhost 18631
 Successfully connected
 ```
 - Othwerwise it will print print an exception like this.
